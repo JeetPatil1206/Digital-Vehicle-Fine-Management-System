@@ -1,0 +1,28 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Java / Maven
+**/target/
+**/build/
+
+# React / Node
+**/node_modules/
+**/dist/
+
+# Local IDE files
+.idea/
+.vscode/
+*.iml
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+backend/digital-vehicle-fines/src/main/resources/application.properties
+
+# Temporary troubleshooting logs
+backend/digital-vehicle-fines/*error*.txt
